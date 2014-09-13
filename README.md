@@ -234,3 +234,22 @@ Pseudo-random numbers are very important, and if we want to play the exact same 
 
 ### Free functions
 - `LOG(string)` log to console under the namespace `Shoot::LUA`
+
+### Lua built-ins
+The following functions and tables (minus some few unsafe functions in `math` and `string`) from Lua are also available:
+
+- `assert`
+- `error`
+- `ipairs`
+- `math`
+- `next`
+- `pairs`
+- `pcall`
+- `select`
+- `string`
+- `tonumber`
+- `tostring`
+- `type`
+- `unpack`
+- `xpcall`
+- `table`
